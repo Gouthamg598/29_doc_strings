@@ -1,0 +1,26 @@
+# def doc():
+#     '''it is a multiline comment and docstring'''
+#     print('''a string that you "don't" have to escape
+# This
+# is a ....... multi-line
+# here doc string --------> example''')
+# doc()
+# print(doc.__doc__)
+
+output:
+
+##a string that you "don't" have to escape    
+#This
+#is a ....... multi-line
+#here doc string --------> example
+#it is a multiline comment and docstring
+'''------------(both are possible)----------'''
+# print(doc.__doc__)
+# doc()
+
+output:
+#it is a multiline comment and docstring
+#a string that you "don't" have to escape    
+#This
+#is a ....... multi-line
+#here doc string --------> example
